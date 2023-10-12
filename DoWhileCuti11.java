@@ -8,6 +8,7 @@ import java.util.Scanner;
             String konfirmasi;
           
             System.out.print("Jatah cuti");
+            jatahCuti = sc.nextInt();
 
             do {
                 System.out.print("Apakah ingin mengambil cuti (y/t)? ");
@@ -15,7 +16,7 @@ import java.util.Scanner;
 
                 if (konfirmasi.equalsIgnoreCase("y")) {
                     System.out.print("Jumlah hari: ");
-                    jumalahHari = sc.nextInt();
+                    jumlahHari = sc.nextInt();
 
                     if  (jumlahHari <= jatahCuti) {
                         jatahCuti -= jumlahHari;
