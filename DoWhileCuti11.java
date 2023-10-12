@@ -7,7 +7,7 @@ import java.util.Scanner;
             int jatahCuti, jumlahHari;
             String konfirmasi;
           
-            System.out.print("Jatah cuti");
+            System.out.print("Jatah cuti : ");
             jatahCuti = sc.nextInt();
 
             do {
@@ -23,8 +23,10 @@ import java.util.Scanner;
                         System.out.println("Sisa jatah cuti: " + jatahCuti);
                     } else {
                        System.out.println("Sisa jatah cuti Anda tidak mencukupi"); 
-                       break;
+                       
                     }
+                } else if (konfirmasi.equalsIgnoreCase("t")) {
+
                 }
             } while (jatahCuti > 0);
         }
