@@ -26,7 +26,7 @@ import java.util.Scanner;
                        
                     }
                 } else if (konfirmasi.equalsIgnoreCase("t")) {
-
+                    break;
                 }
             } while (jatahCuti > 0);
         }
