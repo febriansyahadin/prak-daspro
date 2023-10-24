@@ -11,6 +11,8 @@ public static void main(String[] args) {
     tinggi = sc.nextInt();
     luas = alas * tinggi / 2;
     System.out.println("Luas segitiga: " + luas);
+
+    sc.close();
 }
     
 }
