@@ -35,5 +35,6 @@ import java.util.Scanner;
 
             System.out.println("Rata-rata nilai lulus = "+rataLulus);
             System.out.println("Jumlah mahasiswa yang lulus  = "+rataTidaklulus);
+            
         }
     }

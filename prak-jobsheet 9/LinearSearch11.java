@@ -8,7 +8,7 @@ import java.util.Scanner;
             int jumlahElemen = input.nextInt();
             int [] arrayInt = new int[jumlahElemen];
             int key;
-            int hasil = -1;
+            int hasil = 0;
 
             for (int i = 0; i < arrayInt.length; i++) {
                 System.out.print("Masukkan elemen array ke-"+i+" :");
@@ -25,7 +25,7 @@ import java.util.Scanner;
                 }
             }
 
-            if (hasil == -1) {
+            if (hasil == 0) {
                 System.out.print("key tidak ditemukan");
             }else {
             System.out.println("Key ada dalam array pada posisi indeks ke-"+hasil);
