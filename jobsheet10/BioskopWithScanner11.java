@@ -1,3 +1,4 @@
+package jobsheet10;
 import java.util.Scanner;
 
 public class BioskopWithScanner11 {
@@ -26,7 +27,7 @@ public class BioskopWithScanner11 {
             if (next.equalsIgnoreCase("n")) {
                 break;
             }
-//belum compile
+
         }
     }
 }
